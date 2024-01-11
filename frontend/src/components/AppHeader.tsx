@@ -91,7 +91,7 @@ export default function AppHeader({}) {
         <section className={styles.staticArea}>
           <Link href={"/"} className="flex space-x-3">
             <Image src={"/logo.svg"} width={120} height={47} alt="Magic.link" />
-            <span className="badge">demo</span>
+            <span className="badge">1st Stage</span>
           </Link>
 
           <button onClick={() => handleClose()} className={styles.burger}>
@@ -126,7 +126,7 @@ export default function AppHeader({}) {
             {user?.isLoggedIn ? (
               <div className="image.png grid grid-cols-2 gap-3 lg:flex lg:space-x-3">
                 <Link
-                  href="https://github.com/magiclabs/magic-nft-template/blob/master/README.md"
+                  href="https://github.com/trasgoverde/magic-nft-template"
                   target="_blank"
                   className="btn-neutral col-span-2 flex justify-center gap-3"
                 >
@@ -158,7 +158,7 @@ export default function AppHeader({}) {
             ) : (
               <div className="flex space-x-3">
                 <Link
-                  href="https://github.com/magiclabs/magic-nft-template/blob/master/README.md"
+                  href="https://github.com/trasgoverde/magic-nft-template"
                   target="_blank"
                   className="btn-neutral flex justify-center gap-3"
                 >

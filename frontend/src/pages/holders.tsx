@@ -31,7 +31,7 @@ export default function CollectiblesPage() {
       <section className="hero">
         <h1>Token-Gated Perks</h1>
         <p>
-          This page only shows content to users with a Hiro NFT. At Magic,
+          This page only shows content to users with a WTC-2024 NFT. At Magic,
           we&apos;re seeing a rising number of sophisticated token-gating use
           cases at large enterprises.{" "}
           <a
@@ -42,7 +42,7 @@ export default function CollectiblesPage() {
           >
             Contact us
           </a>{" "}
-          if you&apos;d like our help with your project.
+          if you&apos;d like our contact for developing your Web3 projects.
         </p>
       </section>
 
@@ -61,7 +61,7 @@ export default function CollectiblesPage() {
                       <div>
                         <Image
                           className="shadow-image block"
-                          src="/img/swag-buckethat.png"
+                          src="/img/tokenomic_beer.png"
                           height={250}
                           width={250}
                           alt="Hat swag"
@@ -70,7 +70,7 @@ export default function CollectiblesPage() {
                       <div>
                         <Image
                           className="shadow-image block"
-                          src="/img/swag-tote.png"
+                          src="/img/tokenomic_formation.png"
                           height={250}
                           width={250}
                           alt="Hat swag"
@@ -78,7 +78,7 @@ export default function CollectiblesPage() {
                       </div>
                       <Image
                         className="shadow-image block"
-                        src="/img/swag-jacket.png"
+                        src="/img/tokenomic_legal.png"
                         height={250}
                         width={250}
                         alt="Hat swag"
@@ -86,7 +86,7 @@ export default function CollectiblesPage() {
                       <div>
                         <Image
                           className="shadow-image block"
-                          src="/img/swag-cards.png"
+                          src="/img/tokenomic_sinfondo.png"
                           height={250}
                           width={250}
                           alt="Hat swag"

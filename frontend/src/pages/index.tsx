@@ -7,10 +7,10 @@ import ConnectOrMint from "@/components/ConnectOrMint";
 
 // store a default listing of NFT images from the collection for display on the page
 const tokens = [
-  { id: 0, image: "/img/Ace Hiro.png" },
-  { id: 3, image: "/img/Jack Hiro.png" },
-  { id: 9, image: "/img/Queen Hiro.png" },
-  { id: 4, image: "/img/King Hiro.png" },
+  { id: 0, image: "/img/tokenomic_beer.png" },
+  { id: 3, image: "/img/tokenomic_formation.png" },
+  { id: 9, image: "/img/tokenomic_legal.png" },
+  { id: 4, image: "/img/tokenomic_sinfondo.png" },
 ];
 
 export default function Home() {
@@ -18,24 +18,22 @@ export default function Home() {
     <Layout title="Home" className="">
       <section className="hero">
         <h1 className="hidden custom-breakpoint-500:block">
-          Magic NFT dApp Template
+          NFT World Token Congress 2024
         </h1>
         <h1 className="block custom-breakpoint-500:hidden">
-          Magic NFT dApp&nbsp;Template
+          NFT World Token Congress&nbsp; 2024
         </h1>
         <p>
           Follow our{" "}
           <a
-            href="https://github.com/magiclabs/magic-nft-template/blob/master/README.md"
+            href="https://github.com/trasgoverde/magic-nft-template"
             rel="noreferrer"
             target="_blank"
             className="text-brand-purple underline"
           >
-            NFT developer guide
+            Potencia la Evolución Empresarial en el Universo Blockchain
           </a>{" "}
-          to clone this open source template as your NFT starter kit. This demo
-          includes code for authentication, wallet onboarding, NFT minting, NFT
-          viewing, and token gating.
+          World Token es mucho más que un evento; es una plataforma integral diseñada para catalizar el crecimiento y la adopción de la tecnología blockchain y la tokenización en el ámbito empresarial. Aquí algunas de las herramientas que nos permiten comunicar los beneficios de la tokenización en la economía real.
         </p>
       </section>
 

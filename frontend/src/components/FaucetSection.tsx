@@ -33,9 +33,9 @@ export default function FaucetSection({}) {
   return (
     <section className="mx-auto max-w-lg space-y-3">
       <div>
-        <p>Add free ETH to your wallet using Sepolia testnet.</p>
+        <p>Add free MATIC to your wallet using Polygon Mumbai Testnet.</p>
         <p className="text-sm text-gray-500">
-          *You will need to create an account using Alchemy
+          *You will need to create an account using Discord
         </p>
       </div>
 
@@ -50,12 +50,12 @@ export default function FaucetSection({}) {
         </button>
 
         <Link
-          href={"https://sepoliafaucet.com/"}
+          href={"https://faucet.polygon.technology/"}
           target={"_blank"}
           rel={"noreferrer"}
           className="btn-light block w-full"
         >
-          Open Sepolia ETH faucet
+          Open MATIC Polygon Mumbai Testnet faucet
         </Link>
       </div>
     </section>

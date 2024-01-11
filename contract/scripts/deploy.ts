@@ -1,21 +1,26 @@
-import { ethers } from "hardhat"
+import { ethers } from "hardhat";
+import { PoapContractFactory } from "./contracts/PoapContractFactory"; // Import the PoapContractFactory from its path
+import { PoapContractProxyFactory } from "./contracts/PoapContractProxyFactory"; // Import the PoapContractProxyFactory from its path
 
 async function main() {
-  const [deployer] = await ethers.getSigners()
+  const [deployer] = await ethers.getSigners();
 
-  console.log("Deploying contracts with the account:", deployer.address)
+  // Deploy PoapContract
+  const PoapContractFactory = await ethers.getContractFactory("PoapContract");
+  const poapContract = await PoapContractFactory.deploy();
 
-  console.log("Account balance:", (await deployer.getBalance()).toString())
+  console.log("PoapContract deployed at:", poapContract.address);
 
-  const ContractFactory = await ethers.getContractFactory("HiroCollectibles")
-  const contract = await ContractFactory.deploy()
+  // Deploy PoapContractProxy using the address of the deployed PoapContract
+  const PoapContractProxyFactory = await ethers.getContractFactory("PoapContractProxy");
+  const poapContractProxy = await PoapContractProxyFactory.deploy(poapContract.address);
 
-  console.log("Token address:", contract.address)
+  console.log("PoapContractProxy deployed at:", poapContractProxy.address);
 }
 
 main()
   .then(() => process.exit(0))
   .catch((error) => {
-    console.error(error)
-    process.exit(1)
-  })
+    console.error(error);
+    process.exit(1);
+  });

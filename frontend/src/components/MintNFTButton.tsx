@@ -6,7 +6,7 @@ import { useWeb3 } from "@/context/Web3Context";
 
 export default function MintNFTButton({
   className = "",
-  buttonText = "Mint a Hiro NFT",
+  buttonText = "Mint WTC-2024 NFT",
 }) {
   const { user, setUser } = useUser();
   const { web3, contract } = useWeb3();
