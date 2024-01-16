@@ -19,17 +19,17 @@ export default function Document() {
         />
         <meta
           property="og:site_name"
-          content="Magic NFT Demo"
+          content="WTC-2024"
           key="ogsitename"
         />
         <meta
           property="og:title"
-          content="Next.js NFT Template"
+          content="WTC-2024"
           key="ogtitle"
         />
         <meta
           property="og:description"
-          content="Use this template to kickstart your Next.js NFT marketplace or dApp, reducing hours of work to minutes. This Next.js NFT template comes out of the box with code for authentication, fiat onramp, minting NFTs, viewing NFT collections, and web3 token gating."
+          content="WTC-2024 kickstart NFT PoaP marketplace / dApp"
           key="ogdesc"
         />
         <title>WTC-2024</title>
